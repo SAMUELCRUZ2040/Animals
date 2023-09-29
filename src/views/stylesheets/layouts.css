@@ -1,0 +1,39 @@
+.container-nav{
+    background: #04040400;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.container-nav .list-nav{
+    gap: 70px;
+    padding: 3vh 0;
+}
+
+.container-nav .list-nav li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #957C62;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: all .4s ease-in-out;
+    opacity: 0.9;
+}
+
+.container-nav .list-nav li a:hover{
+    color: #c2c2c2;
+}
+
+.container-nav .subtittle{
+    color: #e0ddd8;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-weight: initial;
+    text-transform: capitalize;
+    z-index: 1;
+}

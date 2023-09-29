@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+* {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section{
+  width: 100%;
+  height: 100vh;
+  background: #f4f4f4;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2,
+h3,
+h4,
+h5, 
+span{
+  font-family: 'Playfair Display', serif;
 }
 
-.App-link {
-  color: #61dafb;
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Playfair Display', serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  font-size: 36px;
+  font-weight: 800;
+}
+h2{
+  font-size: 24px;
+  font-weight: 700;
+}
+h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+h4{
+  font-size: 18px;
+  font-weight: 500;
+}
+h5{
+  font-size: 16px;
+  font-weight: 400;
+}
+h6{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+body{
+  overflow: hidden;
+  background: #000000f5;
+}
+
+#container-content-page{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+ /* scroll */
+
+
+ ::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #36363a;
 }
